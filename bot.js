@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const auth = require("./auth.json");
 const bot = new Discord.Client();
 var doorCount = 0;
 
@@ -31,4 +32,4 @@ bot.on('message',(message) => {
     }
 });
 
-bot.login('NDIxNzYwOTUwODE1OTQ4ODAw.DYSzAA.iN-GQ5vaNDf0B06uY1xe1OWjAPo');
+bot.login(auth.token);
