@@ -1,36 +1,28 @@
 {
-  "name": "doorbot",
-  "version": "1.0.0",
-  "description": "Heroku help",
-  "main": "bot.js",
-  "engines": {
-    "node": "9.8.0",
-    "npm": "5.6.0"
-  },
-  "dependencies": {
-    "bot.js": "0.0.1",
-    "bufferutil": "^3.0.3",
-    "discord.js": "^11.3.2",
-    "es6-promise": "^3.3.1",
-    "es6-shim": "^0.33.13",
-    "opusscript": "0.0.6",
-    "reflect-metadata": "^0.1.2",
-    "rxjs": "^5.0.0-alpha.14",
-    "winston": "^3.0.0-rc2",
-    "zone.js": "^0.5.8"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "bot.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://git.heroku.com/doorbotlol.git"
-  },
-  "keywords": [
-    "heroku",
-    "discord.js"
-  ],
-  "author": "synicalsyntax",
-  "license": "MIT"
+   "name": "doorbot",
+   "version": "1.0.0",
+   "description": "Heroku help",
+   "main": "bot.js",
+   "engines": {
+      "node": "9.8.0",
+      "npm": "5.6.0"
+   },
+   "dependencies": {
+      "bot.js": "0.0.1",
+      "discord.js": "^11.3.2"
+   },
+   "devDependencies": {},
+   "scripts": {
+      "start": "node bot.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://git.heroku.com/doorbotlol.git"
+   },
+   "keywords": [
+      "heroku",
+      "discord.js"
+   ],
+   "author": "synicalsyntax",
+   "license": "MIT"
 }
