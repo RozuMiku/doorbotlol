@@ -9,8 +9,15 @@
   },
   "dependencies": {
     "bot.js": "0.0.1",
+    "bufferutil": "^3.0.3",
     "discord.js": "^11.3.2",
-    "winston": "^3.0.0-rc2"
+    "es6-promise": "^3.3.1",
+    "es6-shim": "^0.33.13",
+    "opusscript": "0.0.6",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-alpha.14",
+    "winston": "^3.0.0-rc2",
+    "zone.js": "^0.5.8"
   },
   "devDependencies": {},
   "scripts": {
