@@ -9,7 +9,7 @@ bot.on('message',(message) => {
     }
 
     if(message.content == ':)'){
-	message.channel.send(':)');
+	message.channel.send(':) ');
     }
     
     if(message.content == '!doorstuck'){
